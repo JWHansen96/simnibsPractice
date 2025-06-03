@@ -1,0 +1,112 @@
+[ simnibs 4.5.0 - 2025-06-03 13:11:18,993 - 5208 ]INFO: Head Mesh:          D:\Johnny\Datasets\m2m_ernie\ernie.msh
+[ simnibs 4.5.0 - 2025-06-03 13:11:18,993 - 5208 ]INFO: Subject Path:       D:\Johnny\Datasets\m2m_ernie
+[ simnibs 4.5.0 - 2025-06-03 13:11:18,993 - 5208 ]INFO: Simulation Folder:  D:\Johnny\simnibsPractice\Simulation Output
+[ simnibs 4.5.0 - 2025-06-03 13:11:21,745 - 5208 ]INFO: Running simulations in the directory: D:\Johnny\simnibsPractice\Simulation Output
+[ simnibs 4.5.0 - 2025-06-03 13:11:22,870 - 5208 ]INFO: Running Poslist Number: 1
+[ simnibs 4.5.0 - 2025-06-03 13:11:22,870 - 5208 ]INFO: Began to run tDCS simulation
+[ simnibs 4.5.0 - 2025-06-03 13:11:22,870 - 5208 ]INFO: Channels: [1, 2]
+[ simnibs 4.5.0 - 2025-06-03 13:11:22,870 - 5208 ]INFO: Currents (A): [0.001, -0.001]
+[ simnibs 4.5.0 - 2025-06-03 13:11:42,601 - 5208 ]INFO: Placing Electrode:
+definition: plane
+shape: rect
+centre: [-62.1, 13.04, 68.06]
+pos_ydir: [-62.1, 23.04, 68.06]
+dimensions: [70.0, 55.0]
+thickness:[5.]
+channelnr: 1
+number of holes: 0
+
+[ simnibs 4.5.0 - 2025-06-03 13:11:59,349 - 5208 ]INFO: Placing Electrode:
+definition: plane
+shape: rect
+centre: [38.28, 105.31, 43.22]
+pos_ydir: [39.19, 107.82, 30.87]
+dimensions: [70.0, 55.0]
+thickness:[5.]
+channelnr: 2
+number of holes: 0
+
+[ simnibs 4.5.0 - 2025-06-03 13:12:42,380 - 5208 ]INFO: Using isotropic conductivities
+[ simnibs 4.5.0 - 2025-06-03 13:12:43,006 - 5208 ]INFO: Simulating electrode pair 2101 - 2102
+[ simnibs 4.5.0 - 2025-06-03 13:12:43,115 - 5208 ]INFO: Assembling FEM Matrix
+[ simnibs 4.5.0 - 2025-06-03 13:12:56,628 - 5208 ]INFO: 13.51 s to assemble FEM matrix
+[ simnibs 4.5.0 - 2025-06-03 13:12:56,675 - 5208 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2025-06-03 13:12:56,675 - 5208 ]INFO: Using solver options: hypre
+[ simnibs 4.5.0 - 2025-06-03 13:13:03,017 - 5208 ]INFO: Time to set up KSP:   4.3355 s
+[ simnibs 4.5.0 - 2025-06-03 13:13:17,362 - 5208 ]INFO: Time to solve:  14.2922 s
+[ simnibs 4.5.0 - 2025-06-03 13:13:18,426 - 5208 ]INFO: Estimated current calibration error: 4.7%
+[ simnibs 4.5.0 - 2025-06-03 13:13:27,597 - 5208 ]INFO: Creating visualizations
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,298 - 5208 ]SUMMARY: 
+ernie_TDCS_1
+============
+Gray Matter
+
+Field Percentiles
+-----------------
+Top percentiles of the field (or field magnitude for vector fields)
+|Field |99.9%        |99.0%        |95.0%        |
+|------|-------------|-------------|-------------|
+|E     |2.21e-01 V/m |1.83e-01 V/m |1.50e-01 V/m |
+|magnE |2.21e-01 V/m |1.83e-01 V/m |1.50e-01 V/m |
+
+Field Focality
+---------------
+Mesh volume or area with a field >= X% of the 99.9th percentile
+|Field |75.0%        |50.0%        |
+|------|-------------|-------------|
+|E     |1.66e+04 mm³ |1.62e+05 mm³ |
+|magnE |1.66e+04 mm³ |1.62e+05 mm³ |
+
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,392 - 5208 ]INFO: Finished Running Poslist Number: 1
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,392 - 5208 ]INFO: Result Files:
+D:\Johnny\simnibsPractice\Simulation Output\ernie_TDCS_1_scalar.msh
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,502 - 5208 ]INFO: Running Poslist Number: 2
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,502 - 5208 ]INFO: Began to run TMS simulations
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,502 - 5208 ]INFO: Coil file: D:/simnibs/simnibs_env/Lib/site-packages/simnibs/resources/coil_models/legacy_and_other/Magstim_70mm_Fig8.ccd
+[ simnibs 4.5.0 - 2025-06-03 13:13:40,502 - 5208 ]INFO: Using isotropic conductivities
+[ simnibs 4.5.0 - 2025-06-03 13:13:58,973 - 5208 ]INFO: matsimnibs: 
+[[-7.2394e-01  1.9644e-01  6.6131e-01 -5.7125e+01]
+ [ 2.3049e-01  9.7239e-01 -3.6521e-02 -4.1329e+00]
+ [-6.5022e-01  1.2599e-01 -7.4923e-01  8.2371e+01]
+ [ 0.0000e+00  0.0000e+00  0.0000e+00  1.0000e+00]]
+[ simnibs 4.5.0 - 2025-06-03 13:14:01,333 - 5208 ]INFO: coil-cortex distance: 19.92mm
+[ simnibs 4.5.0 - 2025-06-03 13:14:01,442 - 5208 ]INFO: Assembling FEM Matrix
+[ simnibs 4.5.0 - 2025-06-03 13:14:15,049 - 5208 ]INFO: 13.61 s to assemble FEM matrix
+[ simnibs 4.5.0 - 2025-06-03 13:14:15,049 - 5208 ]INFO: Calculating dA/dt field
+[ simnibs 4.5.0 - 2025-06-03 13:14:18,565 - 5208 ]INFO: 3.52s to calculate dA/dt
+[ simnibs 4.5.0 - 2025-06-03 13:14:22,361 - 5208 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2025-06-03 13:14:22,361 - 5208 ]INFO: Using solver options: hypre
+[ simnibs 4.5.0 - 2025-06-03 13:14:28,392 - 5208 ]INFO: Time to set up KSP:   4.4585 s
+[ simnibs 4.5.0 - 2025-06-03 13:14:45,686 - 5208 ]INFO: Time to solve:  17.2527 s
+[ simnibs 4.5.0 - 2025-06-03 13:14:54,582 - 5208 ]INFO: Creating visualizations
+[ simnibs 4.5.0 - 2025-06-03 13:15:02,537 - 5208 ]INFO: Creating visualizations
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,067 - 5208 ]SUMMARY: 
+ernie_TMS_2-0001_Magstim_70mm_Fig8
+==================================
+Gray Matter
+
+Field Percentiles
+-----------------
+Top percentiles of the field (or field magnitude for vector fields)
+|Field |99.9%        |99.0%        |95.0%        |
+|------|-------------|-------------|-------------|
+|E     |1.35e+00 V/m |7.95e-01 V/m |4.34e-01 V/m |
+|magnE |1.35e+00 V/m |7.95e-01 V/m |4.34e-01 V/m |
+
+Field Focality
+---------------
+Mesh volume or area with a field >= X% of the 99.9th percentile
+|Field |75.0%        |50.0%        |
+|------|-------------|-------------|
+|E     |3.58e+03 mm³ |1.16e+04 mm³ |
+|magnE |3.58e+03 mm³ |1.16e+04 mm³ |
+
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,192 - 5208 ]INFO: Finished Running Poslist Number: 2
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,192 - 5208 ]INFO: Result Files:
+D:\Johnny\simnibsPractice\Simulation Output\ernie_TMS_2-0001_Magstim_70mm_Fig8_scalar.msh
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: =====================================
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: SimNIBS finished running simulations
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: Simulation Result Meshes:
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: D:\Johnny\simnibsPractice\Simulation Output\ernie_TDCS_1_scalar.msh
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: D:\Johnny\simnibsPractice\Simulation Output\ernie_TMS_2-0001_Magstim_70mm_Fig8_scalar.msh
+[ simnibs 4.5.0 - 2025-06-03 13:15:08,301 - 5208 ]INFO: =====================================
